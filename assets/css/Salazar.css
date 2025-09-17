@@ -186,41 +186,26 @@ body {
 
 .gallery-section h3 {
     font-size: 1.2rem;
-    color: #5ec5d3;
+    color: #a0a0a0;
     text-transform: uppercase;
     margin-bottom: 15px;
     font-weight: 500;
 }
 
-.jogadores-gallery {
+.gallery-images {
     display: flex;
     gap: 15px;
-    flex-wrap: wrap;
 }
 
-.jogadores-gallery img {
+.gallery-images img {
     width: 150px;
     height: auto;
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.2s;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    grid-auto-rows: auto;
-    margin: 5px;
 }
 
-.jogadores-images img:hover {
+.gallery-images img:hover {
     transform: scale(1.05);
 }
-
-.jogadores-gallery h4{
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    color: #d87fba;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-top: 20px;
-}
-
